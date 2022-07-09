@@ -30,4 +30,8 @@ public class Main {
 
     }
 
+    void boo(){
+        System.out.println("Do something");
+    }
+
 }
