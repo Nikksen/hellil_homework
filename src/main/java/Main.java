@@ -7,6 +7,8 @@ public class Main {
         System.out.println(multiply(3,3));
         int resultDevide = devide(9,3);
         System.out.println(resultDevide);
+
+        Test test = new Test();
     }
 
     static int sum(int a, int b){
@@ -26,12 +28,15 @@ public class Main {
         return a/b;
     }
 
-    void foo(){
-
-    }
-
     void boo(){
         System.out.println("Do something");
     }
+
+
+
+}
+
+
+class Test {
 
 }
