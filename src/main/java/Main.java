@@ -4,6 +4,7 @@ public class Main {
         int resultDivision  = division(20,2);
         System.out.println(result);
         System.out.println(resultDivision);
+        System.out.println(multiply(3,3));
     }
 
     static int sum(int a, int b){
@@ -13,4 +14,9 @@ public class Main {
     static int division(int a, int b){
         return  a-b;
     }
+
+    static int multiply(int a,int b){
+        return a*b;
+    }
+
 }
