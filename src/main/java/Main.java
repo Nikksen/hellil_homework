@@ -5,6 +5,8 @@ public class Main {
         System.out.println(result);
         System.out.println(resultDivision);
         System.out.println(multiply(3,3));
+        int resultDevide = devide(9,3);
+        System.out.println(resultDevide);
     }
 
     static int sum(int a, int b){
@@ -17,6 +19,11 @@ public class Main {
 
     static int multiply(int a,int b){
         return a*b;
+    }
+
+
+    static int devide(int a, int b){
+        return a/b;
     }
 
 }
